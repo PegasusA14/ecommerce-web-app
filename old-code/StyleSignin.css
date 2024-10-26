@@ -1,0 +1,46 @@
+.container{
+    display: flex ;
+}
+.container1{
+    flex-direction: row ;
+    margin-left: 80px; 
+}
+.img{
+    margin-left: 40px;
+    border-radius: 5px; /* Rounded corners */
+    width: 450px;
+    height: 600px;
+}
+.text { 
+    margin-top: 3em;
+    font-weight: bold; /* Makes the text bold */
+    font-family: 'Arial', sans-serif; /* Changes the writing style */
+    font-size: 30px;
+}
+.full{
+    margin-left: 20px;
+}
+input[type="text"], input[type="password"] {
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    width: 60%; /* Full width */
+    margin-bottom: 10px; /* Space below each input */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+button {
+    margin-top: 1em;
+    margin-left: 70px;
+    padding: 4px 50px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    background-color: hsl(219, 100%, 44%); /* Button background color (green) */
+    color: white;
+    font-size: 16px; /* Font size */
+    width: 40%; /* Full width for the button */
+    box-shadow: none;
+    border-color: rgb(255, 255, 255);  
+}
+button:hover {
+    background-color:rgb(93, 139, 255); /* Darker shade on hover */
+}

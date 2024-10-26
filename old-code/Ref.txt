@@ -1,0 +1,23 @@
+<p>Login</p>
+            <form>
+                <input type="text" id="username" name="username" placeholder="Enter username" required>
+                <p>Password</p>
+                <input type="text" id="username" name="username" placeholder="Enter Password" required>
+                <br>
+                <br>
+                <label for="accept">
+                    <input type="checkbox" id="accept" name="accept">
+                    Remember me
+                </label>
+                <br>
+                <br>
+                <button type="submit">Log in</button>
+            </form>
+            <br>
+            <br>
+            <button type="submit">Sign in with Google</button>
+            <br><br>
+        
+   margin-top: 1ch ;
+    margin-right: 20px; 
+    margin-left: 5px;

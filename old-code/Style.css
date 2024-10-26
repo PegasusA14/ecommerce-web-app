@@ -1,0 +1,61 @@
+.image{
+    border-radius: 5px; /* Rounded corners */
+    width : 800px;
+    height : 500px;
+}
+.container {
+    display: flex ;
+     /* Use flexbox layout align-items: center; /* Center items vertically */
+}
+.container1 {
+    flex-direction: row;
+    margin-left: 30px; 
+     /* Use flexbox layout align-items: center; /* Center items vertically */
+}
+.text { 
+    margin-top: 3em;
+    font-weight: bold; /* Makes the text bold */
+    font-family: 'Arial', sans-serif; /* Changes the writing style */
+    font-size: 30px;
+}
+.styled-login { 
+    margin-left: 15px; 
+    font-family: "Times New Roman", Times, serif;
+    font-size: smaller;
+}
+input[type="text"], input[type="password"] {
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%; /* Full width */
+    margin-bottom: 10px; /* Space below each input */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+button {
+    margin-left: 60px;
+    align-items: center;
+    padding: 6px 60px;
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    background-color: hsl(219, 100%, 44%); /* Button background color (green) */
+    color: white;
+    font-size: 16px; /* Font size */
+    width: 70%; /* Full width for the button */
+    box-shadow: none;
+    border-color: rgb(255, 255, 255);  
+}
+button:hover {
+    background-color:rgb(93, 139, 255); /* Darker shade on hover */
+}
+.do{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.have{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signup{
+    color: blue;
+}
