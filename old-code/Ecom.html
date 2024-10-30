@@ -7,29 +7,30 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <div >
-        <div class="container">
-            <img src="Login.jpg" alt="A description of the image" class="image"> 
-            <div class="container1">
-                <h1 class="text">Nice to see you again</h1>
-                <p class="styled-login">Username </p>
-                <div class="button">
-                    <input type="text" placeholder="Enter your username" id="username" required>
-                </div>
-                <p class="styled-login">Password</p>
-                <div class="button">
-                    <input type="text" placeholder="Enter Password" id="username" required>
-                </div>
-                <input type="checkbox" id="remember" name="remember">
-                <label for="remember">Remember Me</label>
-                <p style="color: blue;">Forgot Password?</p>
+    <div class="container">
+        <div class="containerPic">
+            <img src="Login.jpg" alt="This is Image" class="image">
+        </div>
+        <div class="containerForm">
+            <p class="greeting">Nice to Meet You Again</p>
+            <div class="user">
+                <p>Username</p>
+            </div>
+            <input type="text" placeholder="Enter your Username">
+            <div class="password">
+                <p>Password</p>
+            </div>
+            <input type="password" placeholder="Enter Password">
+            <div class="login">
+                <label class="remember">
+                    <input type="checkbox" id="remember" name="remember"> Remember me
+                </label>
+                <a href="Esign.html" class="signup">Sign up here</a>
+            </div>
+            <div class="signin">
                 <button type="submit">Sign in</button>
-                <div class="do">
-                    <p class="have">Do you have an account?</p>
-                    <a href="Esign.html" class="signup">Sign up here</a>
-                </div> 
             </div>
         </div>
-    </div>  
+    </div>
 </body>
 </html>
