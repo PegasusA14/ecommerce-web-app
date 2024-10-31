@@ -17,10 +17,12 @@
                 <p>Username</p>
             </div>
             <input type="text" placeholder="Enter your Username">
-            <div class="password">
-                <p>Password</p>
+            <div id="passwordWrapper">
+                <div class="password">
+                    <p>Password</p>
+                </div>
+                <input id="input-password" type="password" placeholder="Enter Password">
             </div>
-            <input type="password" placeholder="Enter Password">
             <div class="login">
                 <label class="remember">
                     <input type="checkbox" id="remember" name="remember"> Remember me
@@ -28,9 +30,32 @@
                 <a href="Esign.html" class="signup">Sign up here</a>
             </div>
             <div class="signin">
-                <button type="submit">Sign in</button>
+                <button onclick="signin()" type="submit">Sign in</button>
             </div>
         </div>
     </div>
 </body>
+<script>
+    const pwdelement = document.getElementById("input-password");
+    const pwdWrapper = document.getElementById("passwordWrapper");
+    let password = '';
+    pwdelement.onchange = function (event){
+        password = pwdelement.value;
+        console.log(password);
+    }
+    function signin(){
+        if(password === ''){
+            pwdWrapper.appendChild(
+                document.createElement("p")
+                .appendChild(document.createTextNode("Password is required"))
+            );
+        }
+        else if(password.length < 8){
+            pwdWrapper.appendChild(
+                document.createElement("p")
+                .appendChild(document.createTextNode("Password must be at least 8 characters"))
+            );
+        }
+    }
+</script>
 </html>
